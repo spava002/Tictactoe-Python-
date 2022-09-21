@@ -1,33 +1,5 @@
 import random
 
-# printInt = "integer"
-# printFloat = "float"
-# printString = "string"
-# printList = "list"
-# printTuple = "tuple"
-# printDictionary = "dictionary"
-# printBoolean = "boolean"
-#
-#
-# print(f"All the different data types in Python are: \n{printInt}\n{printFloat}\n{printString}\n{printList}\n{printTuple}\n{printDictionary}\n{printBoolean}")
-
-# alphabet = "abcdefghijklmnopqrstuvwxyz"
-#
-# search = input("Input a random integer (1-26): ")
-# if int(search) > 26 or int(search) < 1:
-#     exit("Invalid input. Try again.")
-#
-# search = int(search)
-#
-# if (search >= 21 and search % 10 == 1) or search == 1:
-#     print(alphabet[search - 1] + " is the " + str(search) + "st letter in the English alphabet.")
-# elif (search >= 21 and search % 10 == 2) or search == 2:
-#     print(alphabet[search - 1] + " is the " + str(search) + "nd letter in the English alphabet.")
-# elif (search >= 21 and search % 10 == 2) or search == 3:
-#     print(alphabet[search - 1] + " is the " + str(search) + "rd letter in the English alphabet.")
-# else:
-#     print(alphabet[search - 1] + " is the " + str(search) + "th letter in the English alphabet.")
-
 tictactoe = [["-", "-", "-"], ["-", "-", "-"], ["-", "-", "-"]]
 
 
@@ -50,9 +22,6 @@ def spotTaken(row, col):
         return True
     else:
         return False
-        # row = rowChecker(int(input("Input new row: ")))
-        # col = colChecker(int(input("Input new col: ")))
-
 
 def horizontalWin(tictactoe):
     win = False
